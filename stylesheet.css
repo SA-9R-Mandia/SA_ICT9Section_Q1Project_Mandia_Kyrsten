@@ -1,0 +1,128 @@
+
+*{
+margin:0;
+padding: 0;
+}
+
+
+body { background-color: #E1C78F; font-family: "Cinzel", serif;}
+
+.heading{text-align: center; width:100%; height: 90px; background-color: #706233; 
+	     display: block; padding: 2px;}
+
+.bbheader{
+width:100%;
+height: 40px;
+background-color: #B0926A;
+text-align: center ;
+padding: 10px;
+
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.shop {	
+	float: left;
+	height:30px;
+	width: 150px;
+    background-color: #E1C78F;
+    padding-top: 10px;
+
+}
+
+.category {
+	float: left;
+	height:30px;
+	width: 150px;
+	padding-top: 10px;
+	background-color: #E1C78F;
+    margin-left: 20px;}
+
+
+
+.srcbr { 
+  display: flex;
+  align-items: center;
+  }
+
+  .src { 
+         width: 700px;
+         max-width: 700px; 
+         align-items: center;
+         display: flex;
+         padding-left: 90px;
+        }
+
+  .srcbr button {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    border-radius:60px;}
+
+   .srcbr img {width:20px; height:20px; }
+
+
+   .srcbr input {
+      flex: 1;
+      padding: 10px;
+     border-radius: 40px; }
+
+
+
+
+
+
+   .banner {
+ background-image: url("https://www.shutterstock.com/image-photo/sheffield-uk-november-14-2018-260nw-1622590528.jpg");
+background-position: top; 
+background-size: cover;
+min-height: 400px;
+margin: 0; 
+display: block;
+  }
+  
+  #st { Text-align: center;  padding-top: 80px; font-size: 80px;}
+  #ls {padding-left: 1250px; display: inline;}
+
+
+.dscvr { 
+	width: 1200px; height: 600px;  margin-left: 150px; margin-top: 50px;
+      }
+
+.ttl { width: 1200px; height: 20px; text-align: center; font-size: 30px; }
+#dsc {color: white;}
+
+.imgs {  display: flex; flex-wrap: wrap; column-gap: 50px; height: 520px; width: 1200px; padding-top: 50px;}
+
+#skbk { overflow: hidden; height: 180px; width: 220px; margin-left: 90px;} #skbk img { height: 180px; }
+#pncl { overflow: hidden; height: 180px; width: 220px; } #pncl img { height: 180px; }
+#clrpncl { overflow: hidden; height: 180px; width: 220px; } #clrpncl img { height: 180px; }
+#pn { overflow: hidden; height: 180px; width: 220px; } #pn img { height: 180px; }
+#ersr { overflow: hidden; height: 180px; width: 220px; margin-left: 90px;} #ersr img { height: 180px; }
+#shrpnr { overflow: hidden; height: 180px; width: 220px; } #shrpnr img { height: 180px; }
+#pnt { overflow: hidden; height: 180px; width: 220px; } #pnt img { height: 180px; }
+#pntbrsh { overflow: hidden; height: 180px; width: 220px; } #pntbrsh img { height: 180px; }
+
+
+ #footer
+ { background-color: black;
+  padding: 10px;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;}
+
+#footer p{ color: white; Text-align: center; }
+
+
+
+
+   
+     	
+  
+
+
